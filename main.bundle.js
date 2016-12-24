@@ -82,7 +82,7 @@ __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_4__angular_platform_browser__["c
  * @suppress {suspiciousCode,uselessCode,missingProperties}
  */
 /* tslint:disable */
-var styles = [''];
+var styles = ['.top-buffer[_ngcontent-%COMP%] {\r\n  margin-top: 40px;\r\n}\r\n\r\n.font-consistent[_ngcontent-%COMP%] {\r\n  color: #737b7b;\r\n  font-family: Helvetica, Arial, sans-serif;\r\n}\r\n\r\n*[_ngcontent-%COMP%], *[_ngcontent-%COMP%]:before, *[_ngcontent-%COMP%]:after {\r\n  box-sizing: border-box;\r\n  margin: 0;\r\n  padding: 0;\r\n}\r\n\r\n@media screen and (max-width: 700px) {\r\n  h1[_ngcontent-%COMP%] {\r\n    font-size: 30px;\r\n  }\r\n}'];
 //# sourceMappingURL=C:/Users/PC/Documents/GitHub/feedback-angular2/src/app.component.css.shim.ngstyle.js.map
 
 /***/ },
@@ -205,155 +205,29 @@ var View_AppComponent0 = (function (_super) {
         this._text_14 = this.renderer.createText(this._el_13, '\n                1355 Market Street, Suite 900 San Francisco, CA 94103 P: (123) 456-7890\n            ', null);
         this._text_15 = this.renderer.createText(this._el_8, '\n            ', null);
         this._el_16 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_17 = this.renderer.createText(this._el_8, '\n            ', null);
-        this._el_18 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, ':svg:svg', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emotes-svg', 'style', 'display: none;'), null);
-        this._text_19 = this.renderer.createText(this._el_18, '\n                ', null);
-        this._el_20 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, ':svg:symbol', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray8"](6, 'data-emote', 'terrible', 'id', 'fb-emote-terrible', 'viewBox', '0 0 100 100'), null);
-        this._text_21 = this.renderer.createText(this._el_20, '\n                    ', null);
-        this._el_22 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_20, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--left', 'd', 'M32,25 l10,10 a10,10 0 0,1 -20,0 a10,10 0 0,1 10,-10'), null);
-        this._text_23 = this.renderer.createText(this._el_20, '\n                    ', null);
-        this._el_24 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_20, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--right', 'd', 'M58,35 l10,-10 a10,10 0 0,1 0,20 a10,10 0 0,1 -10,-10'), null);
-        this._text_25 = this.renderer.createText(this._el_20, '\n                    ', null);
-        this._el_26 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_20, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__smile', 'd', 'M30,68 q20,-13 40,0 M30,68 q20,-13 40,0'), null);
-        this._text_27 = this.renderer.createText(this._el_20, '\n                ', null);
-        this._text_28 = this.renderer.createText(this._el_18, '\n                ', null);
-        this._el_29 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, ':svg:symbol', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray8"](6, 'data-emote', 'bad', 'id', 'fb-emote-bad', 'viewBox', '0 0 100 100'), null);
-        this._text_30 = this.renderer.createText(this._el_29, '\n                    ', null);
-        this._el_31 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_29, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--left', 'd', 'M22,35 l10,-10 a10,10 0 0,1 0,20 a10,10 0 0,1 -10,-10'), null);
-        this._text_32 = this.renderer.createText(this._el_29, '\n                    ', null);
-        this._el_33 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_29, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--right', 'd', 'M68,25 l10,10 a10,10 0 0,1 -20,0 a10,10 0 0,1 10,-10'), null);
-        this._text_34 = this.renderer.createText(this._el_29, '\n                    ', null);
-        this._el_35 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_29, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__smile', 'd', 'M30,68 q20,-10 40,0 M30,68 q20,-10 40,0'), null);
-        this._text_36 = this.renderer.createText(this._el_29, '\n                ', null);
-        this._text_37 = this.renderer.createText(this._el_18, '\n                ', null);
-        this._el_38 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, ':svg:symbol', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'id', 'fb-emote-okay', 'viewBox', '0 0 100 100'), null);
-        this._text_39 = this.renderer.createText(this._el_38, '\n                    ', null);
-        this._el_40 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_38, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--left', 'd', 'M32,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_41 = this.renderer.createText(this._el_38, '\n                    ', null);
-        this._el_42 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_38, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--right', 'd', 'M68,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_43 = this.renderer.createText(this._el_38, '\n                    ', null);
-        this._el_44 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_38, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__smile', 'd', 'M35,73 q20,-4 35,-8 M35,73 q20,-4 35,-8'), null);
-        this._text_45 = this.renderer.createText(this._el_38, '\n                ', null);
-        this._text_46 = this.renderer.createText(this._el_18, '\n                ', null);
-        this._el_47 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, ':svg:symbol', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'id', 'fb-emote-good', 'viewBox', '0 0 100 100'), null);
-        this._text_48 = this.renderer.createText(this._el_47, '\n                    ', null);
-        this._el_49 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_47, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--left', 'd', 'M32,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_50 = this.renderer.createText(this._el_47, '\n                    ', null);
-        this._el_51 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_47, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--right', 'd', 'M68,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_52 = this.renderer.createText(this._el_47, '\n                    ', null);
-        this._el_53 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_47, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__smile', 'd', 'M30,68 q20,10 40,0 M30,68 q20,10 40,0'), null);
-        this._text_54 = this.renderer.createText(this._el_47, '\n                ', null);
-        this._text_55 = this.renderer.createText(this._el_18, '\n                ', null);
-        this._el_56 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, ':svg:symbol', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'id', 'fb-emote-great', 'viewBox', '0 0 100 100'), null);
-        this._text_57 = this.renderer.createText(this._el_56, '\n                    ', null);
-        this._el_58 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_56, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--left', 'd', 'M32,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_59 = this.renderer.createText(this._el_56, '\n                    ', null);
-        this._el_60 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_56, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__eye fb-emote__eye--right', 'd', 'M68,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_61 = this.renderer.createText(this._el_56, '\n                    ', null);
-        this._el_62 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_56, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote__smile', 'd', 'M30,68 q20,15 40,0 M30,68 q20,0 40,0'), null);
-        this._text_63 = this.renderer.createText(this._el_56, '\n                ', null);
-        this._text_64 = this.renderer.createText(this._el_18, '\n            ', null);
-        this._text_65 = this.renderer.createText(this._el_8, '\n            ', null);
-        this._el_66 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'h2', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'text-center font-consistent'), null);
-        this._text_67 = this.renderer.createText(this._el_66, 'How was the help you received?\n                ', null);
-        this._text_68 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_69 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-cont'), null);
-        this._text_70 = this.renderer.createText(this._el_69, '\n\n                        ', null);
-        this._el_71 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_69, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-cont__inner'), null);
-        this._text_72 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_73 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote', 'data-emote', 'terrible'), null);
-        this._text_74 = this.renderer.createText(this._el_73, '\n                                ', null);
-        this._el_75 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_73, ':svg:svg', __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["EMPTY_INLINE_ARRAY"], null);
-        this._text_76 = this.renderer.createText(this._el_75, '\n                                    ', null);
-        this._el_77 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_75, ':svg:use', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, ':xlink:href', '#fb-emote-terrible'), null);
-        this._text_78 = this.renderer.createText(this._el_75, '\n                                ', null);
-        this._text_79 = this.renderer.createText(this._el_73, '\n                                ', null);
-        this._el_80 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_73, 'p', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-emote__caption'), null);
-        this._text_81 = this.renderer.createText(this._el_80, 'Terrible', null);
-        this._text_82 = this.renderer.createText(this._el_73, '\n                            ', null);
-        this._text_83 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_84 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote', 'data-emote', 'bad'), null);
-        this._text_85 = this.renderer.createText(this._el_84, '\n                                ', null);
-        this._el_86 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_84, ':svg:svg', __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["EMPTY_INLINE_ARRAY"], null);
-        this._text_87 = this.renderer.createText(this._el_86, '\n                                    ', null);
-        this._el_88 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_86, ':svg:use', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, ':xlink:href', '#fb-emote-bad'), null);
-        this._text_89 = this.renderer.createText(this._el_86, '\n                                ', null);
-        this._text_90 = this.renderer.createText(this._el_84, '\n                                ', null);
-        this._el_91 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_84, 'p', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-emote__caption'), null);
-        this._text_92 = this.renderer.createText(this._el_91, 'Bad', null);
-        this._text_93 = this.renderer.createText(this._el_84, '\n                            ', null);
-        this._text_94 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_95 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote s--active', 'data-emote', 'okay'), null);
-        this._text_96 = this.renderer.createText(this._el_95, '\n                                ', null);
-        this._el_97 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_95, ':svg:svg', __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["EMPTY_INLINE_ARRAY"], null);
-        this._text_98 = this.renderer.createText(this._el_97, '\n                                    ', null);
-        this._el_99 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_97, ':svg:use', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, ':xlink:href', '#fb-emote-okay'), null);
-        this._text_100 = this.renderer.createText(this._el_97, '\n                                ', null);
-        this._text_101 = this.renderer.createText(this._el_95, '\n                                ', null);
-        this._el_102 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_95, 'p', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-emote__caption'), null);
-        this._text_103 = this.renderer.createText(this._el_102, 'Okay', null);
-        this._text_104 = this.renderer.createText(this._el_95, '\n                            ', null);
-        this._text_105 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_106 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote', 'data-emote', 'good'), null);
-        this._text_107 = this.renderer.createText(this._el_106, '\n                                ', null);
-        this._el_108 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_106, ':svg:svg', __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["EMPTY_INLINE_ARRAY"], null);
-        this._text_109 = this.renderer.createText(this._el_108, '\n                                    ', null);
-        this._el_110 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_108, ':svg:use', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, ':xlink:href', '#fb-emote-good'), null);
-        this._text_111 = this.renderer.createText(this._el_108, '\n                                ', null);
-        this._text_112 = this.renderer.createText(this._el_106, '\n                                ', null);
-        this._el_113 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_106, 'p', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-emote__caption'), null);
-        this._text_114 = this.renderer.createText(this._el_113, 'Good', null);
-        this._text_115 = this.renderer.createText(this._el_106, '\n                            ', null);
-        this._text_116 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_117 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-emote', 'data-emote', 'great'), null);
-        this._text_118 = this.renderer.createText(this._el_117, '\n                                ', null);
-        this._el_119 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_117, ':svg:svg', __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["EMPTY_INLINE_ARRAY"], null);
-        this._text_120 = this.renderer.createText(this._el_119, '\n                                    ', null);
-        this._el_121 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_119, ':svg:use', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, ':xlink:href', '#fb-emote-great'), null);
-        this._text_122 = this.renderer.createText(this._el_119, '\n                                ', null);
-        this._text_123 = this.renderer.createText(this._el_117, '\n                                ', null);
-        this._el_124 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_117, 'p', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-emote__caption'), null);
-        this._text_125 = this.renderer.createText(this._el_124, 'Great', null);
-        this._text_126 = this.renderer.createText(this._el_117, '\n                            ', null);
-        this._text_127 = this.renderer.createText(this._el_71, '\n                            ', null);
-        this._el_128 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_71, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-cont__drag-cont'), null);
-        this._text_129 = this.renderer.createText(this._el_128, '\n                                ', null);
-        this._el_130 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_128, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'fb-active-emote'), null);
-        this._text_131 = this.renderer.createText(this._el_130, '\n                                    ', null);
-        this._el_132 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_130, ':svg:svg', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'viewBox', '0 0 100 100'), null);
-        this._text_133 = this.renderer.createText(this._el_132, '\n                                        ', null);
-        this._el_134 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_132, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-active-emote__eye fb-active-emote__eye--left', 'd', 'M32,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_135 = this.renderer.createText(this._el_132, '\n                                        ', null);
-        this._el_136 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_132, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-active-emote__eye fb-active-emote__eye--right', 'd', 'M68,25 a10,10 0 0,1 0,20 a10,10 0 0,1 0,-20'), null);
-        this._text_137 = this.renderer.createText(this._el_132, '\n                                        ', null);
-        this._el_138 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_132, ':svg:path', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'fb-active-emote__smile', 'd', 'M35,73 q20,-4 35,-8 M35,73 q20,-4 35,-8'), null);
-        this._text_139 = this.renderer.createText(this._el_132, '\n                                    ', null);
-        this._text_140 = this.renderer.createText(this._el_130, '\n                                ', null);
-        this._text_141 = this.renderer.createText(this._el_128, '\n                            ', null);
-        this._text_142 = this.renderer.createText(this._el_71, '\n                        ', null);
-        this._text_143 = this.renderer.createText(this._el_69, '\n                    ', null);
-        this._text_144 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_145 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
-        this._text_146 = this.renderer.createText(this._el_145, '\n                        ', null);
-        this._el_147 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_145, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review1', 'rows', '3', 'style', 'resize:none'), null);
-        this._text_148 = this.renderer.createText(this._el_145, '\n                    ', null);
-        this._text_149 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_150 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_151 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_152 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
-        this._text_153 = this.renderer.createText(this._el_152, '\n                        ', null);
-        this._el_154 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_152, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review2', 'rows', '3', 'style', 'resize:none'), null);
-        this._text_155 = this.renderer.createText(this._el_152, '\n                    ', null);
-        this._text_156 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_157 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_158 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_159 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'button', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'btn btn-primary btn-lg text-center ', 'type', 'button'), null);
-        this._text_160 = this.renderer.createText(this._el_159, 'Submit', null);
-        this._text_161 = this.renderer.createText(this._el_8, '\n        ', null);
-        this._text_162 = this.renderer.createText(this._el_4, '\n        ', null);
-        this._el_163 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_4, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'col-xs-2 col-md-2 col-centered'), null);
-        this._text_164 = this.renderer.createText(this._el_4, '\n\n\n    ', null);
-        this._text_165 = this.renderer.createText(this._el_2, '\n', null);
+        this._text_17 = this.renderer.createText(this._el_8, '\n           ', null);
+        this._text_18 = this.renderer.createText(this._el_8, '\n                    ', null);
+        this._el_19 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
+        this._text_20 = this.renderer.createText(this._el_19, '\n                        ', null);
+        this._el_21 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_19, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review1', 'rows', '3', 'style', 'resize:none'), null);
+        this._text_22 = this.renderer.createText(this._el_19, '\n                    ', null);
+        this._text_23 = this.renderer.createText(this._el_8, '\n                    ', null);
+        this._el_24 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
+        this._text_25 = this.renderer.createText(this._el_8, '\n                    ', null);
+        this._el_26 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
+        this._text_27 = this.renderer.createText(this._el_26, '\n                        ', null);
+        this._el_28 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_26, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review2', 'rows', '3', 'style', 'resize:none'), null);
+        this._text_29 = this.renderer.createText(this._el_26, '\n                    ', null);
+        this._text_30 = this.renderer.createText(this._el_8, '\n                    ', null);
+        this._el_31 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
+        this._text_32 = this.renderer.createText(this._el_8, '\n                    ', null);
+        this._el_33 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'button', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'btn btn-primary btn-lg text-center ', 'type', 'button'), null);
+        this._text_34 = this.renderer.createText(this._el_33, 'Submit', null);
+        this._text_35 = this.renderer.createText(this._el_8, '\n        ', null);
+        this._text_36 = this.renderer.createText(this._el_4, '\n        ', null);
+        this._el_37 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_4, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'col-xs-2 col-md-2 col-centered'), null);
+        this._text_38 = this.renderer.createText(this._el_4, '\n\n\n    ', null);
+        this._text_39 = this.renderer.createText(this._el_2, '\n', null);
         this.init(null, (this.renderer.directRenderer ? null : [
             this._el_0,
             this._text_1,
@@ -373,154 +247,28 @@ var View_AppComponent0 = (function (_super) {
             this._text_15,
             this._el_16,
             this._text_17,
-            this._el_18,
-            this._text_19,
-            this._el_20,
-            this._text_21,
-            this._el_22,
+            this._text_18,
+            this._el_19,
+            this._text_20,
+            this._el_21,
+            this._text_22,
             this._text_23,
             this._el_24,
             this._text_25,
             this._el_26,
             this._text_27,
-            this._text_28,
-            this._el_29,
+            this._el_28,
+            this._text_29,
             this._text_30,
             this._el_31,
             this._text_32,
             this._el_33,
             this._text_34,
-            this._el_35,
+            this._text_35,
             this._text_36,
-            this._text_37,
-            this._el_38,
-            this._text_39,
-            this._el_40,
-            this._text_41,
-            this._el_42,
-            this._text_43,
-            this._el_44,
-            this._text_45,
-            this._text_46,
-            this._el_47,
-            this._text_48,
-            this._el_49,
-            this._text_50,
-            this._el_51,
-            this._text_52,
-            this._el_53,
-            this._text_54,
-            this._text_55,
-            this._el_56,
-            this._text_57,
-            this._el_58,
-            this._text_59,
-            this._el_60,
-            this._text_61,
-            this._el_62,
-            this._text_63,
-            this._text_64,
-            this._text_65,
-            this._el_66,
-            this._text_67,
-            this._text_68,
-            this._el_69,
-            this._text_70,
-            this._el_71,
-            this._text_72,
-            this._el_73,
-            this._text_74,
-            this._el_75,
-            this._text_76,
-            this._el_77,
-            this._text_78,
-            this._text_79,
-            this._el_80,
-            this._text_81,
-            this._text_82,
-            this._text_83,
-            this._el_84,
-            this._text_85,
-            this._el_86,
-            this._text_87,
-            this._el_88,
-            this._text_89,
-            this._text_90,
-            this._el_91,
-            this._text_92,
-            this._text_93,
-            this._text_94,
-            this._el_95,
-            this._text_96,
-            this._el_97,
-            this._text_98,
-            this._el_99,
-            this._text_100,
-            this._text_101,
-            this._el_102,
-            this._text_103,
-            this._text_104,
-            this._text_105,
-            this._el_106,
-            this._text_107,
-            this._el_108,
-            this._text_109,
-            this._el_110,
-            this._text_111,
-            this._text_112,
-            this._el_113,
-            this._text_114,
-            this._text_115,
-            this._text_116,
-            this._el_117,
-            this._text_118,
-            this._el_119,
-            this._text_120,
-            this._el_121,
-            this._text_122,
-            this._text_123,
-            this._el_124,
-            this._text_125,
-            this._text_126,
-            this._text_127,
-            this._el_128,
-            this._text_129,
-            this._el_130,
-            this._text_131,
-            this._el_132,
-            this._text_133,
-            this._el_134,
-            this._text_135,
-            this._el_136,
-            this._text_137,
-            this._el_138,
-            this._text_139,
-            this._text_140,
-            this._text_141,
-            this._text_142,
-            this._text_143,
-            this._text_144,
-            this._el_145,
-            this._text_146,
-            this._el_147,
-            this._text_148,
-            this._text_149,
-            this._el_150,
-            this._text_151,
-            this._el_152,
-            this._text_153,
-            this._el_154,
-            this._text_155,
-            this._text_156,
-            this._el_157,
-            this._text_158,
-            this._el_159,
-            this._text_160,
-            this._text_161,
-            this._text_162,
-            this._el_163,
-            this._text_164,
-            this._text_165
+            this._el_37,
+            this._text_38,
+            this._text_39
         ]), null);
         return null;
     };
