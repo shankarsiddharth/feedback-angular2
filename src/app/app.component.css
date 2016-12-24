@@ -1,0 +1,20 @@
+.top-buffer {
+  margin-top: 40px;
+}
+
+.font-consistent {
+  color: #737b7b;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+  }
+}
