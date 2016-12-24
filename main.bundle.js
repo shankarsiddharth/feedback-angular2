@@ -18,7 +18,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 var AppComponent = (function () {
     function AppComponent() {
-        this.title = 'app works!';
     }
     AppComponent = __decorate([
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__angular_core__["T" /* Component */])({
@@ -205,29 +204,28 @@ var View_AppComponent0 = (function (_super) {
         this._text_14 = this.renderer.createText(this._el_13, '\n                1355 Market Street, Suite 900 San Francisco, CA 94103 P: (123) 456-7890\n            ', null);
         this._text_15 = this.renderer.createText(this._el_8, '\n            ', null);
         this._el_16 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_17 = this.renderer.createText(this._el_8, '\n           ', null);
-        this._text_18 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_19 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
-        this._text_20 = this.renderer.createText(this._el_19, '\n                        ', null);
-        this._el_21 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_19, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review1', 'rows', '3', 'style', 'resize:none'), null);
-        this._text_22 = this.renderer.createText(this._el_19, '\n                    ', null);
-        this._text_23 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_24 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_25 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_26 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
-        this._text_27 = this.renderer.createText(this._el_26, '\n                        ', null);
-        this._el_28 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_26, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review2', 'rows', '3', 'style', 'resize:none'), null);
-        this._text_29 = this.renderer.createText(this._el_26, '\n                    ', null);
-        this._text_30 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_31 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
-        this._text_32 = this.renderer.createText(this._el_8, '\n                    ', null);
-        this._el_33 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'button', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'btn btn-primary btn-lg text-center ', 'type', 'button'), null);
-        this._text_34 = this.renderer.createText(this._el_33, 'Submit', null);
-        this._text_35 = this.renderer.createText(this._el_8, '\n        ', null);
-        this._text_36 = this.renderer.createText(this._el_4, '\n        ', null);
-        this._el_37 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_4, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'col-xs-2 col-md-2 col-centered'), null);
-        this._text_38 = this.renderer.createText(this._el_4, '\n\n\n    ', null);
-        this._text_39 = this.renderer.createText(this._el_2, '\n', null);
+        this._text_17 = this.renderer.createText(this._el_8, '\n            ', null);
+        this._el_18 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
+        this._text_19 = this.renderer.createText(this._el_18, '\n                ', null);
+        this._el_20 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_18, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review1', 'rows', '3', 'style', 'resize:none'), null);
+        this._text_21 = this.renderer.createText(this._el_18, '\n', null);
+        this._text_22 = this.renderer.createText(this._el_8, '\n', null);
+        this._el_23 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
+        this._text_24 = this.renderer.createText(this._el_8, '\n', null);
+        this._el_25 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'input-group'), null);
+        this._text_26 = this.renderer.createText(this._el_25, '\n    ', null);
+        this._el_27 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_25, 'textarea', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray16"](10, 'class', 'form-control custom-control', 'cols', '120', 'placeholder', 'Review2', 'rows', '3', 'style', 'resize:none'), null);
+        this._text_28 = this.renderer.createText(this._el_25, '\n', null);
+        this._text_29 = this.renderer.createText(this._el_8, '\n', null);
+        this._el_30 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'top-buffer'), null);
+        this._text_31 = this.renderer.createText(this._el_8, '\n', null);
+        this._el_32 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_8, 'button', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray4"](4, 'class', 'btn btn-primary btn-lg text-center ', 'type', 'button'), null);
+        this._text_33 = this.renderer.createText(this._el_32, 'Submit', null);
+        this._text_34 = this.renderer.createText(this._el_8, '\n', null);
+        this._text_35 = this.renderer.createText(this._el_4, '\n', null);
+        this._el_36 = __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["createRenderElement"](this.renderer, this._el_4, 'div', new __WEBPACK_IMPORTED_MODULE_2__angular_core_src_linker_view_utils__["InlineArray2"](2, 'class', 'col-xs-2 col-md-2 col-centered'), null);
+        this._text_37 = this.renderer.createText(this._el_4, '\n\n\n', null);
+        this._text_38 = this.renderer.createText(this._el_2, '\n', null);
         this.init(null, (this.renderer.directRenderer ? null : [
             this._el_0,
             this._text_1,
@@ -247,28 +245,27 @@ var View_AppComponent0 = (function (_super) {
             this._text_15,
             this._el_16,
             this._text_17,
-            this._text_18,
-            this._el_19,
-            this._text_20,
-            this._el_21,
+            this._el_18,
+            this._text_19,
+            this._el_20,
+            this._text_21,
             this._text_22,
-            this._text_23,
-            this._el_24,
-            this._text_25,
-            this._el_26,
-            this._text_27,
-            this._el_28,
+            this._el_23,
+            this._text_24,
+            this._el_25,
+            this._text_26,
+            this._el_27,
+            this._text_28,
             this._text_29,
-            this._text_30,
-            this._el_31,
-            this._text_32,
-            this._el_33,
+            this._el_30,
+            this._text_31,
+            this._el_32,
+            this._text_33,
             this._text_34,
             this._text_35,
-            this._text_36,
-            this._el_37,
-            this._text_38,
-            this._text_39
+            this._el_36,
+            this._text_37,
+            this._text_38
         ]), null);
         return null;
     };
