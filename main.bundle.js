@@ -114,7 +114,7 @@ var DataService = (function () {
             .toPromise()
             .then(res => res.text)
             .catch(this.handleError);*/
-        return this._http.post('http://requestb.in/19mqp121', body, options)
+        return this._http.post('https://requestb.in/19mqp121', body, options)
             .map(function (res) { return res.statusText; })
             .catch(this.handleError);
     };
