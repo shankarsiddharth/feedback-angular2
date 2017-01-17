@@ -9,16 +9,17 @@
             </address>
             <div class="top-buffer"></div>
             <div class="input-group">
-                <textarea class="form-control custom-control" rows="3" cols="120" style="resize:none" placeholder="Review1">
+                <textarea [(ngModel)]="review1" class="form-control custom-control" rows="3" cols="120" style="resize:none" placeholder="Review1">
 </textarea>
 </div>
 <div class="top-buffer"></div>
 <div class="input-group">
-    <textarea class="form-control custom-control" rows="3" cols="120" style="resize:none" placeholder="Review2">
+    <textarea [(ngModel)]="review2" class="form-control custom-control" rows="3" cols="120" style="resize:none" placeholder="Review2">
 </textarea>
 </div>
 <div class="top-buffer"></div>
-<button type="button" class="btn btn-primary btn-lg text-center ">Submit</button>
+<button (click)="load()" type="button" class="btn btn-primary btn-lg text-center ">Load Data</button>
+<button (click)="submit()" type="button" class="btn btn-primary btn-lg text-center ">Submit</button>
 </div>
 <div class="col-xs-2 col-md-2 col-centered"></div>
 
